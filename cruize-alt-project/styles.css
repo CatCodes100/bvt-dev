@@ -1,0 +1,67 @@
+body{
+    height: 100vw;
+    width: 100vw;
+    padding: 0;
+    margin: 0;
+    background-image: url(https://static.vecteezy.com/system/resources/thumbnails/015/488/342/original/seamless-basket-weaving-background-seamless-loop-woven-wicker-straw-texture-video.jpg) ;
+}
+
+.container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+
+}
+
+.title{
+    background-color: blueviolet;
+    height: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 150px;
+    font-weight: 400;
+}
+.box1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;  
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),
+                  url(https://thumbs.dreamstime.com/b/strawberry-cherry-blueberry-rose-flower-background-117928400.jpg););
+    border: solid #ff6961 5px;
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 2em;
+
+}
+    
+.box2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),
+    url(https://thumbs.dreamstime.com/z/kiwi-mango-fruit-24608612.jpg););
+    border: solid #e8f48c 5px; 
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 2em;
+
+}
+.box3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border: solid#add8e6 5px;
+    border-radius: 15px;
+    padding: 10px;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),
+    url(https://images.pexels.com/photos/9553697/pexels-photo-9553697.jpeg?auto=compress&cs=tinysrgb&w=600););
+    font-size: 2em;
+}
